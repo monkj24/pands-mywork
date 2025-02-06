@@ -1,1 +1,9 @@
-ptint("Hello World!!!!")
+print ("hi mum")
+print ("hi mum")
+print ("hi mum")
+print ("hi mum")
+print ("hi mum")
+print ("hi mum")
+print ("hi mum")
+
+    
