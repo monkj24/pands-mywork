@@ -1,4 +1,6 @@
 # bank.py
+# Prompt the user and read in two money amounts
+# author Joanna Mnich
 
 def main():
     # Prompt the user to enter the first amount in cents
