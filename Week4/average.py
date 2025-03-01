@@ -1,7 +1,7 @@
 # keeps reading numbers until the user enters a 0
 # program should print out eachof the numbers entered and the average of them
 
-number = []
+numbers = []
 
 #first number then we check if it is 0 in the whie loop
 
