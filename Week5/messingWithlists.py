@@ -8,4 +8,6 @@ boats + [1,2,3]
 print(len(boats))
 
 boats = boats = [1,2,3]
+
+print(boats)
          
