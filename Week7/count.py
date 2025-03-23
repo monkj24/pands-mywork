@@ -3,8 +3,8 @@ FILENAME = "count.txt"
 if not os.path.isfile(FILENAME): 
     print ("File does not exist") 
 #initialise file here 
-   
-
+    writeNumber(0)
+'''
 FILENAME = "count.txt"
 def readNumber():
     with open(FILENAME) as f:
@@ -22,3 +22,13 @@ num = readNumber()
 num += 1
 print(f"we have run this program {num} times")
 writeNumber(num)
+'''
+
+def readNumber():
+    try:
+        with open(FILENAME) as f:
+            number = int(f.read())
+            return number
+    except IOError:
+        return ()
+               
