@@ -5,10 +5,11 @@ import matplotlib.pyplot as plt
 '''
 np.random.seed(1)   #for see the same random data, 
 #without that code  histogram when runing again and again will be different
+
 normData = np.random.normal(size=10000)
 
 plt.hist(normData)
-plt.show()'
+plt.show()
 '''
 
 fruit = np.array(['Apples', 'Orange', 'Bannana'])
