@@ -15,6 +15,7 @@ ages = np.random.randint(low = 21, high= 65, size = numberOfEntries)
 # Prefer absolute values set at the top (?)
 
 plt.scatter(ages, salaries, label = "Salaries") # this will be a random
+#plt.show()
 
 # add x squared
 xpoints = np.sort(ages)
@@ -27,6 +28,6 @@ plt.xlabel("Age")
 plt.ylabel("Salary") 
 plt.legend() 
 
-plt.show()
+#plt.show()
 
 plt.savefig('prettier-plot.png')
