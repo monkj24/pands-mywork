@@ -22,11 +22,6 @@ assert fibonacci(11) == return11, 'incorrect return for 11'
 assert fibonacci(0) == [], 'incorrect return value for 0' 
 assert fibonacci(1) == [0], 'incorrect return value for 1'
 
-if number == 0: 
-        return [] 
-if number < 0: 
-        raise ValueError('number must be > 0')
-
 try: 
    fibonacci(-1) 
 except ValueError: 
