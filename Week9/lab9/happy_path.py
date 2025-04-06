@@ -3,11 +3,11 @@
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
-def fibonacci(number):
+def fibonacci(number):   
     if number < 0: 
         raise ValueError('number must be > 0') 
     if number == 0: 
-        return []     
+        return []
     
     a = 0
     b = 1
@@ -20,5 +20,13 @@ def fibonacci(number):
     # this is funky code make a = b and b = a + b 
         a , b = b, a + b      
     logging.debug("%d: %s",number, fibonacciSequence) 
+
+    if number < 0: 
+        raise ValueError('number must be > 0') 
+    if number == 0: 
+        return []   
+    
     return fibonacciSequence
+
+print(fibonacci(0)) 
 

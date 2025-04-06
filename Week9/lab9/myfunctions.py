@@ -1,7 +1,14 @@
 import logging 
-logging.basicConfig(level=logging.DEBUG) 
+#logging.basicConfig(level=logging.DEBUG) 
 
 def fibonacci(number): 
+  if number < 0: 
+        raise ValueError('number must be >= 0') 
+  if number == 0: 
+        return [] 
+  if number == 1: 
+        return [0]
+
   a = 0
   b = 1
   fibonacciSequence = [0] 
@@ -13,6 +20,7 @@ def fibonacci(number):
     # this is funky code make a = b and b = a + b 
         a , b = b, a + b 
   logging.debug("%d: %s",number, fibonacciSequence)
+  return fibonacciSequence
 
  
 return7 = [0,1,1,2,3,5,8] 
