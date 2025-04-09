@@ -9,7 +9,7 @@ def gethealthdata(person):
 
 def displayperson(person):
     print(person)
-
+'''
 if __name__ == '__main__':
     person = {
        'firstname': 'andrew',
@@ -20,3 +20,4 @@ if __name__ == '__main__':
 }
 displayperson(person)
 gethealthdata(person)
+'''
