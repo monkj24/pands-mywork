@@ -1,6 +1,6 @@
 # use person module
 
-#Author joanna Mnixh
+#Author joanna Mnich
 
 
 import datetime as dt
